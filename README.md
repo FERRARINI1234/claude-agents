@@ -1,4 +1,4 @@
-# mentorstec-agents
+# claude-agents
 
 Framework de agentes especializados para Data Engineering com **Microsoft Fabric**, **dbt** e **Pentaho**.
 Inclui 27 agentes, 4 skills, Knowledge Base sobre Fabric/Delta Lake, workflow SDD de 6 fases e 15 comandos slash.
@@ -12,7 +12,7 @@ Inclui 27 agentes, 4 skills, Knowledge Base sobre Fabric/Delta Lake, workflow SD
 Em qualquer projeto, execute dentro do Claude Code:
 
 ```
-/plugins install https://github.com/mentorstec/mentorstec-agents
+/plugins install https://github.com/FERRARINI1234/claude-agents
 ```
 
 Isso instala automaticamente todos os agentes, commands e skills em `~/.claude/`.
@@ -20,24 +20,24 @@ Isso instala automaticamente todos os agentes, commands e skills em `~/.claude/`
 ### Manual (fallback)
 
 ```bash
-git clone https://github.com/mentorstec/mentorstec-agents.git
-cp -r mentorstec-agents/plugin/agents   ~/.claude/agents
-cp -r mentorstec-agents/plugin/commands ~/.claude/commands
-cp -r mentorstec-agents/plugin/skills   ~/.claude/skills
-cp -r mentorstec-agents/plugin/kb       ~/.claude/kb
+git clone https://github.com/FERRARINI1234/claude-agents.git
+cp -r claude-agents/plugin/agents   ~/.claude/agents
+cp -r claude-agents/plugin/commands ~/.claude/commands
+cp -r claude-agents/plugin/skills   ~/.claude/skills
+cp -r claude-agents/plugin/kb       ~/.claude/kb
 ```
 
 ### Via symlink (unica fonte da verdade)
 
 ```bash
-git clone https://github.com/mentorstec/mentorstec-agents.git ~/.mentorstec-agents
-ln -s ~/.mentorstec-agents/plugin/agents   ~/.claude/agents
-ln -s ~/.mentorstec-agents/plugin/commands ~/.claude/commands
-ln -s ~/.mentorstec-agents/plugin/skills   ~/.claude/skills
-ln -s ~/.mentorstec-agents/plugin/kb       ~/.claude/kb
+git clone https://github.com/FERRARINI1234/claude-agents.git ~/.claude-agents
+ln -s ~/.claude-agents/plugin/agents   ~/.claude/agents
+ln -s ~/.claude-agents/plugin/commands ~/.claude/commands
+ln -s ~/.claude-agents/plugin/skills   ~/.claude/skills
+ln -s ~/.claude-agents/plugin/kb       ~/.claude/kb
 ```
 
-Atualizacoes: `cd ~/.mentorstec-agents && git pull`
+Atualizacoes: `cd ~/.claude-agents && git pull`
 
 ---
 
@@ -186,13 +186,13 @@ Apos instalar via plugin:
 
 ```bash
 # Atualiza para a versao mais recente
-/plugins update mentorstec-agents
+/plugins update claude-agents
 ```
 
 Ou via symlink:
 
 ```bash
-cd ~/.mentorstec-agents && git pull
+cd ~/.claude-agents && git pull
 ```
 
 ---
