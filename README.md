@@ -12,7 +12,8 @@ Inclui 27 agentes, 4 skills, Knowledge Base sobre Fabric/Delta Lake, workflow SD
 Em qualquer projeto, execute dentro do Claude Code:
 
 ```
-/plugins install https://github.com/FERRARINI1234/claude-agents
+/plugin marketplace add https://github.com/FERRARINI1234/claude-agents
+/plugin install claude-agents@claude-agents
 ```
 
 Isso instala automaticamente todos os agentes, commands e skills em `~/.claude/`.
@@ -186,7 +187,7 @@ Apos instalar via plugin:
 
 ```bash
 # Atualiza para a versao mais recente
-/plugins update claude-agents
+/plugin update claude-agents
 ```
 
 Ou via symlink:

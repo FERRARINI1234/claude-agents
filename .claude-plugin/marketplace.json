@@ -1,0 +1,25 @@
+{
+  "plugins": [
+    {
+      "name": "claude-agents",
+      "version": "1.0.0",
+      "description": "Framework de agentes especializados para Data Engineering com Microsoft Fabric — 27 agentes, 4 skills, KB Microsoft Fabric, workflow SDD de 6 fases e 15 comandos",
+      "source": "./plugin",
+      "keywords": [
+        "data-engineering",
+        "microsoft-fabric",
+        "dbt",
+        "pentaho",
+        "sdd",
+        "spec-driven-development",
+        "pyspark",
+        "delta-lake",
+        "medallion-architecture",
+        "lakehouse",
+        "soda",
+        "data-quality",
+        "azure-devops"
+      ]
+    }
+  ]
+}
