@@ -1,4 +1,9 @@
 {
+  "name": "claude-agents",
+  "owner": {
+    "name": "FERRARINI1234",
+    "url": "https://github.com/FERRARINI1234"
+  },
   "plugins": [
     {
       "name": "claude-agents",
