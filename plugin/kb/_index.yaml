@@ -1,0 +1,19 @@
+kb_version: "1.0"
+domains:
+  - key: microsoft-fabric
+    path: .claude/kb/microsoft-fabric/
+    description: "Microsoft Fabric data lakehouse platform knowledge for Credicoamo"
+    version: "1.0"
+    created: "2026-02-09"
+    concepts:
+      - lakehouse
+      - delta-lake
+      - notebooks
+      - medallion-architecture
+      - pyspark-patterns
+      - fabric-deployment
+    patterns:
+      - repository-pattern
+      - scd-implementation
+      - merge-upsert
+      - hash-change-detection

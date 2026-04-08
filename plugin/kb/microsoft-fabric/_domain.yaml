@@ -1,0 +1,15 @@
+domain: microsoft-fabric
+description: "Microsoft Fabric data lakehouse platform knowledge"
+version: "1.0"
+concepts:
+  - lakehouse
+  - delta-lake
+  - notebooks
+  - medallion-architecture
+  - pyspark-patterns
+  - fabric-deployment
+patterns:
+  - repository-pattern
+  - scd-implementation
+  - merge-upsert
+  - hash-change-detection

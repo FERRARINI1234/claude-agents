@@ -1,0 +1,23 @@
+{
+  "plugins": [
+    {
+      "name": "mentorstec-agents",
+      "version": "1.0.0",
+      "description": "Framework de agentes especializados para Data Engineering com Microsoft Fabric — 15 agentes, 3 skills, KB Microsoft Fabric, workflow SDD de 6 fases e 12 comandos",
+      "source": "./",
+      "keywords": [
+        "data-engineering",
+        "microsoft-fabric",
+        "sdd",
+        "spec-driven-development",
+        "pyspark",
+        "delta-lake",
+        "medallion-architecture",
+        "lakehouse",
+        "soda",
+        "data-quality",
+        "azure-devops"
+      ]
+    }
+  ]
+}
